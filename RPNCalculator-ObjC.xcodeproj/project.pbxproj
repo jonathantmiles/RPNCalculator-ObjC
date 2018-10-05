@@ -8,24 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		F8E373512166AF6A00749EF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E373502166AF6A00749EF7 /* AppDelegate.m */; };
-		F8E373542166AF6B00749EF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E373532166AF6B00749EF7 /* ViewController.m */; };
-		F8E373572166AF6B00749EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E373552166AF6B00749EF7 /* Main.storyboard */; };
 		F8E373592166AF6B00749EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E373582166AF6B00749EF7 /* Assets.xcassets */; };
 		F8E3735C2166AF6B00749EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E3735A2166AF6B00749EF7 /* LaunchScreen.storyboard */; };
 		F8E3735F2166AF6B00749EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3735E2166AF6B00749EF7 /* main.m */; };
+		F8E373692166B18F00749EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E373682166B18F00749EF7 /* Main.storyboard */; };
+		F8E3736F2166B25000749EF7 /* JTMCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3736E2166B25000749EF7 /* JTMCalculatorViewController.m */; };
+		F8E373732166B2A100749EF7 /* JTMStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E373722166B2A100749EF7 /* JTMStack.m */; };
+		F8E373762166C84C00749EF7 /* JTMCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E373752166C84C00749EF7 /* JTMCalculator.m */; };
+		F8E373792166D88000749EF7 /* JTMDigitAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E373782166D88000749EF7 /* JTMDigitAccumulator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8E3734C2166AF6A00749EF7 /* RPNCalculator-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPNCalculator-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E3734F2166AF6A00749EF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8E373502166AF6A00749EF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F8E373522166AF6B00749EF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F8E373532166AF6B00749EF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F8E373562166AF6B00749EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8E373582166AF6B00749EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E3735B2166AF6B00749EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E3735D2166AF6B00749EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8E3735E2166AF6B00749EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8E373682166B18F00749EF7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F8E3736D2166B25000749EF7 /* JTMCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMCalculatorViewController.h; sourceTree = "<group>"; };
+		F8E3736E2166B25000749EF7 /* JTMCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMCalculatorViewController.m; sourceTree = "<group>"; };
+		F8E373712166B2A100749EF7 /* JTMStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMStack.h; sourceTree = "<group>"; };
+		F8E373722166B2A100749EF7 /* JTMStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMStack.m; sourceTree = "<group>"; };
+		F8E373742166C84C00749EF7 /* JTMCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMCalculator.h; sourceTree = "<group>"; };
+		F8E373752166C84C00749EF7 /* JTMCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMCalculator.m; sourceTree = "<group>"; };
+		F8E373772166D88000749EF7 /* JTMDigitAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMDigitAccumulator.h; sourceTree = "<group>"; };
+		F8E373782166D88000749EF7 /* JTMDigitAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMDigitAccumulator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +67,31 @@
 		F8E3734E2166AF6A00749EF7 /* RPNCalculator-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				F8E373702166B28900749EF7 /* Model */,
 				F8E3734F2166AF6A00749EF7 /* AppDelegate.h */,
 				F8E373502166AF6A00749EF7 /* AppDelegate.m */,
-				F8E373522166AF6B00749EF7 /* ViewController.h */,
-				F8E373532166AF6B00749EF7 /* ViewController.m */,
-				F8E373552166AF6B00749EF7 /* Main.storyboard */,
+				F8E373682166B18F00749EF7 /* Main.storyboard */,
 				F8E373582166AF6B00749EF7 /* Assets.xcassets */,
 				F8E3735A2166AF6B00749EF7 /* LaunchScreen.storyboard */,
 				F8E3735D2166AF6B00749EF7 /* Info.plist */,
 				F8E3735E2166AF6B00749EF7 /* main.m */,
+				F8E3736D2166B25000749EF7 /* JTMCalculatorViewController.h */,
+				F8E3736E2166B25000749EF7 /* JTMCalculatorViewController.m */,
 			);
 			path = "RPNCalculator-ObjC";
+			sourceTree = "<group>";
+		};
+		F8E373702166B28900749EF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8E373712166B2A100749EF7 /* JTMStack.h */,
+				F8E373722166B2A100749EF7 /* JTMStack.m */,
+				F8E373742166C84C00749EF7 /* JTMCalculator.h */,
+				F8E373752166C84C00749EF7 /* JTMCalculator.m */,
+				F8E373772166D88000749EF7 /* JTMDigitAccumulator.h */,
+				F8E373782166D88000749EF7 /* JTMDigitAccumulator.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E373692166B18F00749EF7 /* Main.storyboard in Resources */,
 				F8E3735C2166AF6B00749EF7 /* LaunchScreen.storyboard in Resources */,
 				F8E373592166AF6B00749EF7 /* Assets.xcassets in Resources */,
-				F8E373572166AF6B00749EF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E373542166AF6B00749EF7 /* ViewController.m in Sources */,
 				F8E3735F2166AF6B00749EF7 /* main.m in Sources */,
 				F8E373512166AF6A00749EF7 /* AppDelegate.m in Sources */,
+				F8E373762166C84C00749EF7 /* JTMCalculator.m in Sources */,
+				F8E373732166B2A100749EF7 /* JTMStack.m in Sources */,
+				F8E373792166D88000749EF7 /* JTMDigitAccumulator.m in Sources */,
+				F8E3736F2166B25000749EF7 /* JTMCalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F8E373552166AF6B00749EF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8E373562166AF6B00749EF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F8E3735A2166AF6B00749EF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
